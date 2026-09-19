@@ -1,0 +1,46 @@
+.app {
+  max-width: 640px;
+  margin: 2rem auto;
+  font-family: system-ui, sans-serif;
+  padding: 0 1rem;
+}
+
+.controles {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.barra-busqueda,
+.filtro-categoria {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.boton-limpiar {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.contador-resultados {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.listado-plantas {
+  list-style: none;
+  padding: 0;
+}
+
+.planta-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.lista-vacia {
+  color: #777;
+  font-style: italic;
+}
